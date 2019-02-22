@@ -1,0 +1,40 @@
+{
+  "name": "file_parser",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "author": "Bhargava Ganti",
+  "keywords": [
+    "resume",
+    "cv",
+    "parser",
+    "resume parser",
+    "cv parser"
+  ],
+  "dependencies": {
+    "async-request": "^1.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "4.13.3",
+    "faker": "^4.1.0",
+    "form-data": "^2.3.3",
+    "log4js": "^4.0.2",
+    "mime": "^2.4.0",
+    "multer": "1.1.0",
+    "pdf-to-text": "0.0.7",
+    "pdf2text": "^1.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "serve-index": "^1.9.1",
+    "simple-node-logger": "^18.12.21",
+    "textract": "^2.2.0",
+    "tracer": "^0.8.11",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "should": "~7.1.0",
+    "mocha": "~2.3.3",
+    "supertest": "~1.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "prettier": "1.10.2"
+  }
+}
